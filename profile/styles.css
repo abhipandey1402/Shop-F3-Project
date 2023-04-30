@@ -1,1 +1,74 @@
-/* Write your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quattrocento&family=Ruda&display=swap');
+
+body{
+    margin: 0;
+    max-width: 100%;
+    color: #fff;
+    font-weight: 400;
+    font-family: inter;
+}
+
+nav{
+    height: 5vw;
+    background-color: #000;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+#contentBox{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#contentBox h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 2vw;
+}
+
+.form{
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 2vw;
+    height: 3vw;
+}
+
+.form button{
+    min-height: 25px;
+    height: 2.5vw;
+    min-width: 80px;
+    width: 12vw;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-bottom: 1vw;
+}
+
+
+
+
+
+
+
+
