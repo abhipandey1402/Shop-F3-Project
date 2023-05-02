@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Quattrocento&family=Ruda&display=swap');
 
 body {
@@ -31,34 +32,34 @@ a {
     gap: 1vw;
 }
 
-#contentBox {
+#contentBox{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
 }
 
-.form p {
+.form p{
     color: #000;
     font-weight: 400;
     font-size: 2vw;
     line-height: 2vw;
 }
 
-.form {
+.form{
     width: 90%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
 }
 
-.form input {
+.form input{
     width: 100%;
     margin-bottom: 2vw;
     height: 3vw;
 }
 
-.form button {
+.form button{
     min-height: 25px;
     height: 2.5vw;
     min-width: 80px;
@@ -69,7 +70,4 @@ a {
     margin-bottom: 1vw;
 }
 
-#message {
-    padding: 1vw;
-}
 

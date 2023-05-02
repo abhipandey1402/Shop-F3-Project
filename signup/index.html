@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/signup/style.css">
 </head>
 
 <body>
     <nav>
         <div id="navbar">
             <div id="navLeft">
-                <a href="./index.html">MeShop</a>
+                <a href="/">MeShop</a>
             </div>
             <div id="navRight">
-                <a href="#">Home</a>
-                <a href="#">Login</a>
-                <a href="#">My Cart</a>
+                <a href="/">Home</a>
+                <a href="/login">Login</a>
+                <a href="/cart">My Cart</a>
             </div>
         </div>
     </nav>
@@ -26,6 +27,7 @@
     <div id="contentBox">
         <form class="form">
             <p>Signup</p>
+            <div id="message"></div>
             <input type="text" placeholder="First Name" id="fName">
             <input type="text" placeholder="Last Name" id="lName">
             <input type="email" placeholder="Email" id="email">
@@ -35,8 +37,11 @@
         </form>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/signup/script.js" async defer></script>
 </body>
 
 </html>
+
+
+
 
