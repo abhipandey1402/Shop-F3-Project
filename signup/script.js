@@ -6,8 +6,7 @@ let signupBtn = document.getElementById('signupBtn');
 signupBtn.addEventListener('click', (e) => {
     e.preventDefault();
 
-    let fName = document.getElementById('fName').value;
-    let lName = document.getElementById('lName').value;
+    let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let pass = document.getElementById('pass').value;
     let confirmPass = document.getElementById('confirmPass').value;
@@ -29,7 +28,7 @@ signupBtn.addEventListener('click', (e) => {
         return;
     }
 
-    if (fName == '' || lName == '' || email == '' || pass == '' || confirmPass == '') {
+    if (name == '' || email == '' || pass == '' || confirmPass == '') {
         message.innerHTML = `<div style='color:#FF4F4F;'>Please fill out all fields</div>`;
         return;
     }
@@ -39,7 +38,6 @@ signupBtn.addEventListener('click', (e) => {
         return;
     }
 
-    let name = fName + " " + lName;
     let user = {
         name: name,
         email: email,
