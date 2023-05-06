@@ -1,3 +1,12 @@
+alert("Please login first");
+
+function checkLogin() {
+    if (!localStorage.getItem('token')) {
+        window.location.href = '/login';
+    }
+}
+checkLogin();
+
 //Code for some initial part
 
 let message = document.getElementById('message');

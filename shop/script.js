@@ -7,6 +7,8 @@ let range25_50 = false;
 let range50_100 = false;
 let range100 = false;
 
+alert("Please login first");
+
 function checkLogin() {
   if (!localStorage.getItem('token')) {
     window.location.href = '/login';
@@ -148,7 +150,7 @@ function showProductOnScreen(finalProducts) {
     itemBox.innerHTML = `<p>Oops,No products found for this filtering, try different combinations!</p>`;
     return;
   }
-  let output = `<div></div>`;
+  let output = '';
 
   finalProducts.forEach((product) => {
     output += `<div class="item" >
