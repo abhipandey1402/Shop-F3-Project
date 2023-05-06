@@ -4,10 +4,10 @@
 // Add button code documentation:
 // https://razorpay.com/docs/payments/payment-gateway/web-integration/standard/build-integration#code-to-add-pay-button
 
-alert("Please login first");
 
 function checkLogin() {
   if (!localStorage.getItem('token')) {
+    alert("Please login first");
     window.location.href = '/login';
   }
 }
